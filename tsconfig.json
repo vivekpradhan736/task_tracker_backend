@@ -3,11 +3,12 @@
     "target": "ES2018",
     "module": "commonjs",
     "outDir": "./dist",
+    "rootDir": "./",                      // Root is the project folder
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["**/*.ts"],
+  "include": ["*.ts"],                    // Looks for .ts files in root
   "exclude": ["node_modules"]
 }
